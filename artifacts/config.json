@@ -1,0 +1,11 @@
+{
+    "project_name": "AI-Powered Support Ticket Intelligence Platform",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dimension": 384,
+    "retrieval_method": "hybrid",
+    "selected_alpha": 0.9,
+    "tfidf_weight": 0.1,
+    "top_k_default": 5,
+    "kmeans_clusters": 77,
+    "random_state": 42
+}
