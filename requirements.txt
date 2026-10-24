@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+streamlit
+requests
+sentence-transformers
+scikit-learn
+numpy
+scipy
+joblib
+pandas
+pytest
