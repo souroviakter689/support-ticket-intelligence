@@ -329,4 +329,4 @@ Integrating the retrieval system with real-world customer support workflows.
 
 Sourovi Akter
 
-GitHub: @souroviakter689**
+GitHub: @souroviakter689
