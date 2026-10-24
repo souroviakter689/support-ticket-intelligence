@@ -282,10 +282,51 @@ The FastAPI implementation is retained for local testing and potential future AP
 
 The currently deployed Streamlit application performs retrieval directly within the Streamlit app and does not require a separately deployed FastAPI server.
 
-## 🐳 12. Docker and Containerization
+**🐳 12. Docker and Containerization
 
 Docker configuration is included to support containerized execution and more consistent runtime environments.
 
-### Docker Files
+Docker Files
+Dockerfile — defines the instructions for building a container image.
+docker-compose.yml — defines the application's Docker Compose configuration.
+.dockerignore — identifies files and directories to exclude from the Docker build context.
 
-* **`Docker**
+Containerization can simplify environment setup and help make application execution more reproducible across different systems.
+
+The actual Docker build and container execution should be tested independently before claiming a successful Docker deployment.
+
+💻 13. Running Locally
+
+The Streamlit application can be run locally in a Python environment with the dependencies installed.
+
+The general setup process is:
+
+Clone the GitHub repository.
+Create and activate a Python virtual environment.
+Install the dependencies listed in requirements.txt.
+Run the Streamlit application using the appropriate Streamlit command.
+
+The repository also contains the FastAPI implementation, which can be run separately for API testing.
+
+Refer to the application files and configuration for the appropriate execution settings.
+
+🔮 14. Future Improvements
+
+Potential improvements include:
+
+Evaluating retrieval quality using labelled relevance data.
+Comparing semantic-only, TF-IDF-only, and hybrid retrieval.
+Tuning the hybrid weighting parameter using validation data.
+Evaluating alternative sentence embedding models.
+Improving retrieval performance on semantically similar banking queries.
+Adding intent-based filtering and advanced search options.
+Evaluating clustering quality against known intent labels.
+Improving memory efficiency during model loading.
+Expanding automated testing for search quality and API behaviour.
+Validating Docker builds and container execution.
+Integrating the retrieval system with real-world customer support workflows.
+👩‍💻 15. Author
+
+Sourovi Akter
+
+GitHub: @souroviakter689**
