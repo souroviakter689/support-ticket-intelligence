@@ -5,6 +5,10 @@ from pathlib import Path
 
 import joblib
 import numpy as np
+import numpy as np
+import torch
+
+torch.set_num_threads(2)
 import pandas as pd
 
 from fastapi import FastAPI, HTTPException
